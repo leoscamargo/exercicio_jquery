@@ -1,0 +1,36 @@
+*{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px;
+}
+header h1{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+}
+form{
+    display: flex;
+    justify-content: center;
+}
+form input{
+    font-weight: bold;
+    border-radius: 5%;
+}
+form button{
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 5%;
+    max-width: 100%;
+    margin-left: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+form button:hover{
+    background-color: black;
+    color: white;
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
